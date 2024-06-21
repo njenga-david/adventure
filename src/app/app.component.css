@@ -1,0 +1,29 @@
+/* app.component.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .message-box {
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .message-box:hover {
+    background-color: #0056b3;
+  }
+  .error {
+    color: red;
+    font-style: italic;
+  }
+  
